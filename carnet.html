@@ -1,0 +1,228 @@
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Pragma" content="no-cache">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title></title>
+		<script type="text/javascript">
+var xajaxRequestUri="index.server.php";
+var xajaxDebug=false;
+var xajaxStatusMessages=false;
+var xajaxWaitCursor=true;
+var xajaxDefinedGet=0;
+var xajaxDefinedPost=1;
+function xajax_search(){return xajax.call("search", arguments, 1);}
+</script>
+	<script type="text/javascript" src="../xajax/xajax_js/xajax.js"></script><style type="text/css" id="operaUserStyle"></style>
+
+	<!-- <link rel="stylesheet" href="../../css_2/style.css"/> -->
+	<link rel="stylesheet" href="../css_2/grid.css?version=227567a627dac7c642.45868784">
+	<!-- <link rel="stylesheet" href="../css_2/bootstrap/dist/css/custom.css?version=227567a627dac7c642.45868784" /> -->
+	<link rel="stylesheet" href="../../css_2/tipografia.css?version=227567a627dac7c642.45868784">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="../css_2/font-awesome/css/font-awesome.min.css?version=227567a627dac7c642.45868784">
+
+
+	<script type="text/javascript" src="../js/index.js?version=227567a627dac7c642.45868784"></script>
+	<script type="text/javascript" src="index.js?version=227567a627dac7c642.45868784"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<style>
+	.pointer {
+		cursor: pointer;
+	}
+
+	.contenedor {
+		background-color: #F7F7F7;
+		box-shadow: 0 5px 5px #6f6f6f49;
+	}
+
+	small {
+		font-family: 'roboto condensed';
+		font-weight: bold;
+	}
+
+	.contenedor-dato {
+		display: flex;
+		flex-direction: column;
+		margin: .6rem 0;
+	}
+	.contenedor-dato-a {
+			margin: 3rem 0;
+			font-size: 20px;
+		}
+
+	.contenedor-dato>span {
+		margin-bottom: -5px;
+		font-size: 18px;
+		color: #545454;
+	}
+
+	.contenedor-dato-titulo {
+		font-size: 20px !important;
+	}
+
+	.encabezado{
+			display: inline;
+	}
+
+	.encabezado-mobile{
+			display: none;
+	}
+
+
+	@media (max-width: 400px) {
+		.container {
+			height: 100vh;
+		}
+
+		.contenedor-dato {
+			margin: 1.2rem 0;
+			font-size: 20px;
+		}
+		
+
+		.contenedor-dato>span {
+			font-size: 24px;
+			margin-bottom: -10px;
+
+		}
+
+		.contenedor-dato-titulo {
+			font-size: 26px !important;
+		}
+		.encabezado{
+			display: none;
+		}
+		.encabezado{
+			display:none;
+		}
+		.encabezado-mobile{
+			display:inline;
+		}
+	}
+</style><style type="text/css"></style><link rel="stylesheet" href="chrome-extension://ihcjicgdanjaechkgeegckofjjedodee/app/content-style.css"></head>
+
+
+<body>
+
+
+	<div class="container mt-2">
+
+		<div class="contenedor">
+			<div class="row">
+				<div class="col-12">
+					<img src="../imagenes/encabezado.png" class="img-fluid encabezado" alt="Responsive image">
+					<img src="../imagenes/encabezado_mobile.png" class="img-fluid encabezado-mobile" alt="Responsive image">
+
+				</div>
+			</div>
+
+			
+
+			<div class="row justify-content-center mt-4">
+				<div class="col-12 text-center contenedor-dato ">
+					<span class="contenedor-dato-titulo">LIENDRO, MAXIMILIANO XAVIER ALEJANDRO </span>
+					<!-- <small class="text-primary">Vigente</small> -->
+					<small class="text-primary">Apellido, nombre</small>
+
+				</div>
+
+
+
+			</div>
+
+			<div class="row">
+				<div class=" col-12 col-sm-6 text-center contenedor-dato">
+					<span>548234</span>
+					<small class="text-primary">Nro de Carnet</small>
+				</div>
+
+				<div class="col-12 col-sm-6 text-center contenedor-dato">
+					<span>43372960</span>
+					<small class="text-primary">Documento</small>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-sm-6 text-center contenedor-dato">
+					<span>07-02-2025</span>
+					<small class="text-primary">Fecha de Emisión</small>
+					<!-- <small class="text-primary pointer" data-toggle="modal" data-target="#modalHistorial"> [Historial]</small> -->
+				</div>
+				<div class="col-12 col-sm-6 text-center contenedor-dato">
+					<span>07-02-2028</span>
+					<small class="text-primary">Fecha de Vencimiento</small>
+				</div>
+
+			</div>
+
+			<div class="alert alert-success text-center mt-4" role="alert">
+				Vigente
+			</div>
+
+			
+
+		</div>
+
+
+		<!-- <button type="button" class="btn btn-secondary"
+			onclick="window.location.href = '../consultademanipuladoresbusqueda'">Volver</button> -->
+	</div>
+
+
+
+
+
+
+
+
+	<input type="hidden" id="op" name="op">
+
+	<!-- <script type="text/javascript">
+	id_frame = top.detectFrame();top.setTitulo(id_frame, 'Consulta Federal de Registro de Establecimiento');
+	</script> -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="../../js/jqueryPlugins/printArea/jquery.PrintArea.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		id_frame = top.detectFrame(); top.setTitulo(id_frame, 'Registro de Manipulador de Alimentos');
+	</script>
+	<script>
+		// Example starter JavaScript for disabling form submissions if there are invalid fields
+		(function () {
+			'use strict';
+			window.addEventListener('load', function () {
+				// Fetch all the forms we want to apply custom Bootstrap validation styles to
+				var forms = document.getElementsByClassName('needs-validation');
+				// Loop over them and prevent submission
+				var validation = Array.prototype.filter.call(forms, function (form) {
+					form.addEventListener('submit', function (event) {
+						if (form.checkValidity() === false) {
+							event.preventDefault();
+							event.stopPropagation();
+						}
+						form.classList.add('was-validated');
+					}, false);
+				});
+			}, false);
+		})();
+
+		$("#imprime").click(function () {
+			$("div#myPrintArea").printArea();
+		})
+
+
+	</script>
+
+
+</body></html>
